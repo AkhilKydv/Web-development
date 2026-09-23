@@ -83,6 +83,17 @@ do {
 ```
 
 ---
+### **Break** and **Continue**
+* `break` : Exit loop completely
+* `continue` : Skip current iteration and move to next
+
+```js
+for (let i = 1; i <= 5; i++) {
+if (i === 3) continue;
+console.log(i); // Skips 3
+}
+```
+---
 
 ### Quick Tips:
 
