@@ -63,3 +63,14 @@ let obj2 = obj1;
 obj2.age = 30;
 console.log(obj1.age); // 30 (changed via reference)
 ```
+
+----
+### NaN – Not a Number
+Even though it means “Not a Number”, NaN is actually of type number .
+This is because operations like 0 / 0 or parseInt("abc") still produce a numeric result —
+just an invalid one.
+```js
+typeof NaN // "number"
+```
+
+
